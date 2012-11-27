@@ -1,21 +1,15 @@
-<?php
-/*
-Template Name: Accueil
-*/
-?>
-
 <?php get_header(); ?>
-
-<?php get_template_part('sidebar', 'accueil'); ?>
 
 		<!-- Row for main content area -->
 		<div id="content" class="eight columns">
 	
 			<div class="post-box">
-				iiioiooi
-				<?php get_template_part('loop', 'accueil'); ?>
+				<h1><?php _e('Search Results for', 'reverie'); ?> "<?php echo get_search_query(); ?>"</h1>
+				<?php get_template_part('loop', 'search'); ?>
 			</div>
 
 		</div><!-- End Content row -->
+		
+		<?php get_sidebar(); ?>
 		
 <?php get_footer(); ?>

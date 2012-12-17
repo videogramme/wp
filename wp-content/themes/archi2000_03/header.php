@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -12,6 +12,8 @@
 
 	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
 	<meta name="viewport" content="width=device-width" />
+
+	<link rel="canonical" href="http://www.archi2000.be">
 
 	<!-- Favicon and Feed -->
 	<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
@@ -37,14 +39,21 @@
 
 </head>
 
-<body <?php body_class('off-canvas hide-extras'); ?>>
+<body  <?php body_class() ?>>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
 
 
 
 <!-- Basic Needs -->
 
-<!-- hide-for-small -->
-<nav role="navigation" class="top-bar">
+<div id="wrapper">
+	<header>
+
+
+		<!-- hide-for-small -->
+		<nav role="navigation" class="top-bar nav">
 					<?php
 						if ( has_nav_menu( 'primary_navigation' ) ):
 					    	wp_nav_menu( array(
@@ -63,39 +72,9 @@
 						endif;
 						?>
 
+		</nav>
 
-	<ul class="right">
-      <li><a href="#">Archi 2000</a></li>
-    </ul>
+		<div id="logo"><span id="logo-small">archi</span>2000</div>
 
-</nav>
-
-<!-- Positioning the Top Bar -->
-<div class="fixed contain-to-grid">
-  <!-- <nav> goes here -->
-</div>
-
-
-
-	<!-- Start the main container -->
-	<div id="container" class="container" role="document">
-
-
-
-
-		<!-- Row for blog navigation -->
-		<div class="row top-header">
-			<header class="twelve columns" role="banner">
-			
-				
-				<p class="show-for-small">
-					<a class='sidebar-button button' id="sidebarButton" href="#sidebar-off" >Menu</a>
-				</p> 
-			</header>
-		</div>
-		
-		<!-- Start Off-Canvas Row -->
-		<div class="row">
-		
-		<!-- Row for main content area -->
-		<section id="main" role="main">
+	</header>
+	<section id="main" role="main">

@@ -89,6 +89,13 @@ define('WPLANG', 'fr_FR');
  */ 
 define('WP_DEBUG', false); 
 
+
+// LE SUPER LOG DE DEBUG DE MERDE ;)
+// ini_set('log_errors',TRUE);
+// ini_set('error_reporting', E_ALL);
+// ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
+
+
 /* C'est tout, ne touchez pas à ce qui suit ! Bon blogging ! */
 
 /** Chemin absolu vers le dossier de WordPress. */

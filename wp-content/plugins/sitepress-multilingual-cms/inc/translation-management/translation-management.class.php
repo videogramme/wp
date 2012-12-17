@@ -1214,7 +1214,7 @@ class TranslationManagement{
     * @param array $args
     */
     function get_documents($args){
-        
+                
         extract($args);
         
         global $wpdb, $wp_query, $sitepress;
@@ -1288,6 +1288,8 @@ class TranslationManagement{
             if($to_lang){
                 if($tstatus == 'not'){
                     $where .= " AND (iclts.status IS NULL OR iclts.status = ".ICL_TM_WAITING_FOR_TRANSLATOR." OR iclts.needs_update = 1)\n";    
+                }elseif($tstatus == 'need-update'){
+                    $where .= " AND iclts.needs_update = 1\n";    
                 }elseif($tstatus == 'in_progress'){
                     $where .= " AND iclts.status = ".ICL_TM_IN_PROGRESS." AND iclts.needs_update = 0\n";    
                 }elseif($tstatus == 'complete'){
@@ -1302,6 +1304,15 @@ class TranslationManagement{
                         if($lang['code'] == $from_lang) continue;
                         $tbl_alias_suffix = str_replace('-','_',$lang['code']);
                         $wheres[] = "iclts_{$tbl_alias_suffix}.status IS NULL OR iclts_{$tbl_alias_suffix}.status = ".ICL_TM_WAITING_FOR_TRANSLATOR." OR iclts_{$tbl_alias_suffix}.needs_update = 1\n";    
+                    }
+                    $where .= join(' OR ', $wheres) . ")";
+                }elseif($tstatus == 'need-update'){
+                    $where .= " AND (";
+                    $wheres = array();
+                    foreach($sitepress->get_active_languages() as $lang){
+                        if($lang['code'] == $from_lang) continue;
+                        $tbl_alias_suffix = str_replace('-','_',$lang['code']);
+                        $wheres[] = "iclts_{$tbl_alias_suffix}.needs_update = 1\n";    
                     }
                     $where .= join(' OR ', $wheres) . ")";
                 }elseif($tstatus == 'in_progress'){
@@ -1728,7 +1739,7 @@ class TranslationManagement{
     
     function send_jobs($data){                                
         global $wpdb, $sitepress;
-        
+                      
         if(!isset($data['tr_action']) && isset($data['translate_to'])){ //adapt new format
             $data['tr_action'] = $data['translate_to'];
             unset($data['translate_to']);
@@ -1786,7 +1797,7 @@ class TranslationManagement{
                     $current_translation_status = $this->get_element_translation($post_id, $lang, 'post_' . $post->post_type);                
                     if($current_translation_status && $current_translation_status->status == ICL_TM_IN_PROGRESS) continue;
                     
-                    $job_ids[] = $this->make_duplicate($post_id, $lang);
+                    $job_ids[] = $this->make_duplicate($post_id, $lang);                                         
                 }elseif($action == 1){    
 
                     if(empty($post_translations[$lang])){
@@ -2014,16 +2025,18 @@ class TranslationManagement{
             $wpdb->insert($wpdb->prefix . 'icl_translate', $job_translate);    
         }
         
-        if(!defined('ICL_TM_DISABLE_ALL_NOTIFICATIONS') && $translation_status->translation_service=='local'){
-            if($this->settings['notification']['new-job'] == ICL_TM_NOTIFICATION_IMMEDIATELY){
-                require_once ICL_PLUGIN_PATH . '/inc/translation-management/tm-notification.class.php';
-                if($job_id){
-                    $tn_notification = new TM_Notification();
-                    if(empty($translator_id)){
-                        $tn_notification->new_job_any($job_id);    
-                    }else{
-                        $tn_notification->new_job_translator($job_id, $translator_id);
-                    }            
+        if($this->settings['doc_translation_method'] == ICL_TM_TMETHOD_EDITOR){ // only send notifications if the translation editor method is on
+            if(!defined('ICL_TM_DISABLE_ALL_NOTIFICATIONS') && $translation_status->translation_service=='local'){
+                if($this->settings['notification']['new-job'] == ICL_TM_NOTIFICATION_IMMEDIATELY){
+                    require_once ICL_PLUGIN_PATH . '/inc/translation-management/tm-notification.class.php';
+                    if($job_id){
+                        $tn_notification = new TM_Notification();
+                        if(empty($translator_id)){
+                            $tn_notification->new_job_any($job_id);    
+                        }else{
+                            $tn_notification->new_job_translator($job_id, $translator_id);
+                        }            
+                    }
                 }
             }
         }
@@ -3601,9 +3614,11 @@ class TranslationManagement{
             
             $this->save_post_actions($id, get_post($id), $force_set_status = ICL_TM_DUPLICATE);
 
+            $this->duplicate_fix_children($master_post_id, $lang);
+            
             // dup comments
             if($sitepress->get_option('sync_comments_on_duplicates')){
-                $this->duplicate_comments($id, $master_post->ID);    
+                $this->duplicate_comments($master_post_id, $lang);    
             }
             
             // make sure post name is copied
@@ -3669,6 +3684,24 @@ class TranslationManagement{
         return $ret;
         
     }
+    
+    function duplicate_fix_children($master_post_id, $lang){
+        global $wpdb;
+        
+        $post_type = $wpdb->get_var($wpdb->prepare("SELECT post_type FROM {$wpdb->posts} WHERE ID=%d", $master_post_id));
+        $master_children = $wpdb->get_col($wpdb->prepare("SELECT ID FROM {$wpdb->posts} WHERE post_parent=%d AND post_type != 'revision'", $master_post_id));
+        $dup_parent = icl_object_id($master_post_id, $post_type, false, $lang);
+        
+        if($master_children){
+            foreach($master_children as $master_child){
+                $dup_child = icl_object_id($master_child, $post_type, false, $lang);
+                if($dup_child){
+                    $wpdb->update($wpdb->posts, array('post_parent' => $dup_parent), array('ID' => $dup_child));                        
+                }
+                $this->duplicate_fix_children($master_child, $lang);
+            }
+        }
+    } 
     
     function make_duplicates_all($master_post_id){
         global $sitepress;

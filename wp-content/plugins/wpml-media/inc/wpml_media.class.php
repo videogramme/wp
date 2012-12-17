@@ -247,6 +247,14 @@ class WPML_media{
 						if ($featured_t || $featured_t == '') {
 							$thumbnail_id = get_post_meta($pidd, '_thumbnail_id', true);
 							if ($thumbnail_id) {
+								$t_thumbnail_id = $wpdb->get_var( $wpdb->prepare( 
+									"
+										SELECT post_id 
+										FROM $wpdb->postmeta 
+										WHERE meta_key = 'wpml_media_duplicate_of' AND meta_value = %s
+									", 
+									$thumbnail_id
+								) );
 								update_post_meta($translation_id, '_thumbnail_id', $thumbnail_id);
 							}
 						}
@@ -298,6 +306,14 @@ class WPML_media{
 			if ($featured) {
 				$thumbnail_id = get_post_meta($source_id, '_thumbnail_id', true);
 				if ($thumbnail_id) {
+					$t_thumbnail_id = $wpdb->get_var( $wpdb->prepare( 
+						"
+							SELECT post_id 
+							FROM $wpdb->postmeta 
+							WHERE meta_key = 'wpml_media_duplicate_of' AND meta_value = %s
+						", 
+						$thumbnail_id
+					) );
 					update_post_meta($pidd, '_thumbnail_id', $thumbnail_id);
 				}
 				
@@ -454,11 +470,11 @@ class WPML_media{
         }   
         // get language of their parents
         if(!empty($missing_langs)){     
-            $results = $wpdb->get_results($wpdb->prepare("
+            $results = $wpdb->get_results("
                 SELECT p.ID, t.language_code 
                 FROM {$wpdb->posts} p JOIN {$wpdb->prefix}icl_translations t ON p.ID = t.element_id AND t.element_type = CONCAT('post_', p.post_type)
                 WHERE p.ID IN(".join(',', $missing_langs).")
-            "));
+            ");
             foreach($results as $row){
                 $parent_langs[$row->ID] = $row->language_code;
             }
@@ -698,7 +714,15 @@ class WPML_media{
 								if ($translation->element_id != $post->ID) {
 									if (!in_array($translation->element_id, array_keys($thumbnails))) {
 										// translation doesn't have a feature image
-										update_post_meta($translation->element_id, '_thumbnail_id', $thumbnails[$post->ID]);
+										$t_thumbnail_id = $wpdb->get_var( $wpdb->prepare( 
+											"
+												SELECT post_id 
+												FROM $wpdb->postmeta 
+												WHERE meta_key = 'wpml_media_duplicate_of' AND meta_value = %s
+											", 
+											$thumbnails[$post->ID]
+										) );
+										update_post_meta($translation->element_id, '_thumbnail_id', $t_thumbnail_id);
 										$count += 1;
 										
 									}

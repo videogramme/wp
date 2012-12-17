@@ -70,7 +70,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td style="border: none;" nowrap="nowrap" style="background-color: pink;"><?php _e('Document status', 'wpml-translation-management')?></td>
+                    <td style="border: none;" nowrap="nowrap"><?php _e('Document status', 'wpml-translation-management')?></td>
                     <td style="border: none;">
                         <ul>
                             <li>
@@ -128,6 +128,8 @@
         </form>
             
         <br />
+        
+        <?php if(defined('WPML_ST_VERSION')) include WPML_ST_PATH . '/menu/_slug-translation-options.php'; ?>
             
         <form id="icl_translation_pickup_mode" name="icl_translation_pickup_mode" action="">        
         <?php wp_nonce_field('set_pickup_mode_nonce', '_icl_nonce') ?>

@@ -1,0 +1,645 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"the_ti",
+				"the_title"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"item",
+				"itemSelector"
+			],
+			[
+				"win",
+				"windowSize"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"post",
+				"post-thumbnail"
+			],
+			[
+				"backgruo",
+				"background-color"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"false",
+				"false"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"main",
+				"main-text"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"line",
+				"line-height	zen:css_properties"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"li",
+				"line_of_text"
+			],
+			[
+				"pe",
+				"pathname"
+			],
+			[
+				"la",
+				"languePost"
+			],
+			[
+				"rec",
+				"recupererLangue"
+			],
+			[
+				"e",
+				"else	else"
+			],
+			[
+				"string",
+				"is_string"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"style",
+				"list-style"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ad",
+				"address_dt"
+			],
+			[
+				"addre",
+				"address_dd"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"margn",
+				"margin-top"
+			],
+			[
+				"Red",
+				"Redirect	Laravel: Redirect::to_route()"
+			],
+			[
+				"route",
+				"Route"
+			],
+			[
+				"File",
+				"File	Laravel: File::get()"
+			],
+			[
+				"al",
+				"albumArray"
+			],
+			[
+				"HTM",
+				"HTML	Laravel: HTML::link()"
+			],
+			[
+				"pu",
+				"put_album"
+			],
+			[
+				"da",
+				"dashboard"
+			],
+			[
+				"F",
+				"Form"
+			],
+			[
+				"album",
+				"album_author"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"lo",
+				"Snippet: lorem - Medium paragraph"
+			],
+			[
+				"lor",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"c",
+				"Color Picker: Insert Color"
+			],
+			[
+				"col",
+				"Color Picker: Insert Color"
+			],
+			[
+				"colo",
+				"Color Picker: Insert Color"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"CSSLint: Run CSSLint"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"word",
+				"WordPress Codex: Open Function Reference"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"wra",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"consol",
+				"Set Syntax: R Console"
+			],
+			[
+				"conso",
+				"Set Syntax: R Console"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/single-news.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/archive-news.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/functions.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/single-profils.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/archive-profils.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/footer.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/loop-projets.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/page-projets.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/loop-singleprojet.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/single-projet.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/page-news.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/loop.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/single-projets.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/news.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/projets.php",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/accueil.php",
+		"/Users/iop/Downloads/h5bp-html5-boilerplate-0a340fb/index.html",
+		"/Users/iop/Downloads/initializr 3/index.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/_exemples/testfont.html",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/header.php",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/___?iso.js",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/08_iso_infi_etc/projet1.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/08_iso_infi_etc/css/flexslider.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/08_iso_infi_etc/css/css.css",
+		"/Applications/MAMP/htdocs/archi2000/wp/wp-content/themes/archi2000_03/css/offcanvas.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/07_iso_infi_etc/projet1.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/07_iso_infi_etc/css/css.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/07_iso_infi_etc/projets.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/_exemples/galleria/index.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/07_iso_infi_etc/css/cabin.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/04_iso_infi_etc/_data/isotope-site/demos/combination-filters.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/_SnippetIsotope.js",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/06_iso_infi_etc/projets.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/06_iso_infi_etc/projet1.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/_theme_scratch/js/isotope/jquery.isotope.js",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/06_iso_infi_etc/css/main.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/06_iso_infi_etc/galleria/themes/archi2000/galleria.archi2000.03.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/06_iso_infi_etc/css/css.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/06_iso_infi_etc/galleria/themes/archi2000/galleria.archi2000.js",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/06_iso_infi_etc/galleria/themes/archi2000/galleria.archi2000.02.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/06_iso_infi_etc/galleria/themes/archi2000/galleria.archi2000.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/_theme_fondation/javascripts/isotope-site/demos/combination-filters.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/06_iso_infi_etc/galleria/galleria-1.2.8.js",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/_theme_scratch/js/isotope/demos/fluid-responsive.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/06_iso_infi_etc/css/formalize.css",
+		"/Users/iop/Library/Application Support/Sublime Text 2/Packages/User/LiveReload.sublime-settings",
+		"/Users/iop/.zshrc",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/_theme_scratch/js/isotope/demos/combination-filters.html",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/55?_Science 41/text_Science41.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/54?_The Grand Museum of Egypt/text_The-Grand-Museum-of-Egypt.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/52?_Aremberg : Logements/text_Aremberg-Logement.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/51?_Aremberg : Montagne/text_Aremberg-Montagne.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/50?_Aremberg : Wolfers/text_Aremberg-Wolf.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/53?_Aremberg : Bureaux/text_Aremberg-Bureau.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/49?_Tanneurs/text_Tanneurs.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/48_Spa-Verviers/text_Spa-Verviers.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/47_Tour & Taxis/text_Tou&t.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/44?_ACC - Corée/text_ACC-Coree.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/43?_Giant's Causeway/text_Giant-Causeway.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/42_Pavillon/text_Pavillon.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/46_Colonies/text_Colonies.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/45?_Bundesministerium - Berlin/text_Bundes-Berlin.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/40_Portalis/text_Portalis.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/39_RTL House/text_RTL-House.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/38_Cortenbergh/text_Cortenberg.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/38?_37_Madou Plaza/text_Madou-Plaza.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/37?_Bibliothèque de Stockholm/text_Bibli-Stock.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/41_Lex 65/text_Lex-65.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/36_Rossel/text_Rossel.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/35_Arsenal/text_Arsenal.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/34_Ligne/text_Ligne.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/32_Palais Outre-Ponts/text_Palais-Outre-P.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/31?_CICCM/text_CICCM.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/33_K. Point/text_K.Point.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/29_Station de Métro De Brouckère/text_Metro-DeBrouck.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/28?_Belval/text-Belval.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/27_Royal Leopold Club/text_Royal-leo-club.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/30_Les Jardins de la Chasse/text_Jardin-Chasse.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/25?_TPF Group/text_TPF-group.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/24_Forum I/text_ForumI.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/23_De Crayer/text_De-Crayer.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/22_Neo-Montoyer 51/text_Neo-Montoy.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/21?_Anspach/text_Anspach.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/20?_Verrewinkel/text_Verwinkel.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/19_Tour & Taxis - ZIR 6A/text_Tour&t-ZIR.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/18_The Platinium - Lousie 233/text_Platinium.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/26_Picard/text_Picard.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/17_RTBF Liège - Media Rives/text_RTBF-Liege.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/16_Wetteren/text_Wetteren.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/06_Cité administrative - RAC/text_CA-RAC.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/05?_Galeries St-Hubert logement/text_gal-log.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/04_Bordet/text_Bordet.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/03?_École européen IV/text_EEIV.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/02_RTBF Bruxelles/text_RTBF-BXL.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/01_Waterloo 878/text_Wat-878.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/14_Royale 120/text_Royal120.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/13?_Galeries St-Hubert théatre/text_Gal-thea.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/12_Zeeuwspad/text_Zeeuw.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/11_Forum II/text_ForumII.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/10_Durcuroir Van-Volxem/text_Durcu.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/09_Livourne/text_livou.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/08_Livingstone/text_Living.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/07_Léopold II/text_LeoII.txt",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/04_iso_infi_etc/css/isotope.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/04_iso_infi_etc/css/main.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/04_iso_infi_etc/projets.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/03_iso_infi_etc/projets.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/testHERE.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/testHERE_02.html",
+		"/Users/iop/Documents/Hébergements et domaines",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/04 iso/index.html",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/15_Hole 15/text_Hole15.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/02_projets/03?_École européen IV/text.txt",
+		"/Applications/MAMP/htdocs/archi2000/__Nouveau SiteWeb/04_equipe/text_equipe.txt",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/04 iso/fluid-responsive_fichiers/style.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/01_masonry_boot/js/base.js",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/01_masonry_boot/index.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/02_iso_infi_etc/index.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/02_iso_infi_etc/_data/isotope-site/demos/combination-filters.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/02_iso_infi_etc/css/isotope.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/02_iso_infi_etc/css/main.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/_theme_iso/_data/initializr/index.html",
+		"/Applications/MAMP/htdocs/armacutis/_data/lien_publi_jquery.txt",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/_theme_iso/index.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/_theme_scratch02/index03.html",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/01_masonry_boot/css/base.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/01_masonry_boot/css/bootstrap/bootstrap.css",
+		"/Applications/MAMP/htdocs/archi2000/wp_data/01_masonry_boot/css/bootstrap/bootstrap-responsive.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#rotating-item-wrapper",
+			"#rotating-item-wrapper\n",
+			"    \n",
+			"galleria-image-",
+			"galleria-image ",
+			"background",
+			"background-c",
+			"{\n",
+			"img",
+			"post",
+			"container",
+			"content",
+			"container",
+			"combo-fil",
+			"wrapper",
+			"main",
+			"site-na",
+			"media",
+			"bold",
+			"white",
+			"font-w",
+			"wrapper",
+			"footer",
+			"border",
+			"header-con",
+			"body",
+			"content",
+			"post",
+			"border",
+			"content",
+			";\n",
+			".css",
+			"footer",
+			"ﬁﬁ",
+			"visible",
+			"console",
+			"#666",
+			"#999",
+			"categorie",
+			"address_dd",
+			"address_dt",
+			"body_title",
+			"tag",
+			"reqtxt",
+			"two",
+			"ul",
+			"li",
+			"title",
+			"pdv",
+			"@",
+			"todo",
+			"d",
+			"p",
+			"album_author",
+			"post"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"#post-img",
+			"color-shape",
+			"#777",
+			"category",
+			"contact_dd",
+			"contact_dt",
+			"address_dt",
+			"li",
+			"ul",
+			"blog",
+			"h",
+			"album"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 330.0,
+	"status_bar_visible": true
+}
